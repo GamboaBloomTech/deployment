@@ -62,3 +62,7 @@ app.get('/pretty', (req, res) => {
 app.get('/', (req, res)=>{
     res.send("Hi, good to see you")
 })
+
+app.listen(PORT, ()=>{
+    console.log("Server is up!")
+})
